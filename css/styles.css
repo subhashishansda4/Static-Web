@@ -55,21 +55,8 @@ p {
 
 .navbar {
     color: #171717;
-    padding-left: 17.8rem;
-    padding-right: 17.8rem;
-}
-
-#navbar-brand {
-    font-family: "Flamenco";
-    color: #DA0037;
-    font-size: 2.5rem;
-    font-weight: 300;
-}
-#navbar-brand:hover {
-    font-family: "Flamenco";
-    color: #D9D9D9;
-    font-size: 2.5rem;
-    font-weight: 300;
+    padding-left: 15%;
+    padding-right: 15%
 }
 
 .nav-item {
@@ -114,7 +101,7 @@ p {
 
 .testimonial-image {
     border-radius: 100%;
-    width: 5%;
+    width: 5rem;
     margin: 30px;
 }
 
@@ -123,11 +110,11 @@ p {
 }
 
 .testimonial-text {
-    color: #DA0037;
+    color: #EF8172;
 }
 
 .testimonial-text:hover {
-    color: #EF8172;
+    color: #DA0037;
 }
 
 .press-logo-1 {
@@ -150,10 +137,28 @@ p {
     margin: 2.6rem 2%;
 }
 
+.cta {
+    color: #D9D9D9;
+}
+
+#navbar-brand {
+    font-family: "Flamenco";
+    color: #DA0037;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 50% 0 4rem;
+}
+#navbar-brand:hover {
+    font-family: "Flamenco";
+    color: #D9D9D9;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
 #title {
     background-color: #171717;
     color: #D9D9D9;
-    padding-top: 15rem;
+    padding: 15rem 1% 0 5%;
 }
 
 #features {
@@ -162,7 +167,7 @@ p {
 }
 
 #testimonials {
-    padding: 0rem 0% 24rem;
+    padding: 0rem 0% 6rem;
     text-align: center;
     background-color: #171717;
     color: #D9D9D9;
@@ -176,12 +181,21 @@ p {
 
 #pricing {
     background-color: #F5F5F5;
+    margin: 0;
+    padding: 5rem 20% 5rem; 
 }
 
 #cta {
+    color: #D9D9D9;
+    text-align: center;
     background-color: #171717;
+    margin: 0;
+    padding: 3rem 5% 3rem;
 }
 
 #footer {
+    text-align: center;
     background-color: #171717;
+    margin: 0;
+    padding: 0rem 5% 1px;
 }
